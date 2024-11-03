@@ -48,8 +48,8 @@
                                             </button>
                                         </div>
 
-                                        <p class="mb-0 pb-lg-2" style="color: #393f81;">Don't have an account? <a
-                                                href="#!" style="color: #590e05;">Register here</a></p>
+                                        <p class="mb-0 pb-lg-2" style="color: #393f81;">Don't have an account? 
+                                            <a href="Create" style="color: #590e05;">Register here</a></p>
                                     </form>
 
                                 </div>

@@ -10,8 +10,8 @@ Route::get('/Login', function () {
     return view('login');
 });
 
-Route::get('/About', function () {
-    return 'about';
+Route::get('/Create', function () {
+    return view('create');
 });
 
 Route::get('/Contact', function () {
