@@ -6,11 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/Create', function () {
-    return view('register_form');
-});
-
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
