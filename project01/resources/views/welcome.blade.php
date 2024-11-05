@@ -10,7 +10,7 @@
     <style>
         /* Custom Styling */
         body {
-            background-color: #cb908a;
+            background-color: #bca4a2;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -33,19 +33,19 @@
         }
 
         .header h1,
-        .header h2 {
-            color: #5e3535;
+        .header h3 {
+            color: #980505;
         }
 
         .welcome {
-            background-color: #7e5a5a;
+            background-color: #8f4f4f;
             color: rgb(255, 255, 255);
             padding: 8px;
             font-weight: bold;
         }
 
         .login-box {
-            background-color: #5e3e35;
+            background-color: #944f4f;
             color: rgb(255, 255, 255);
             padding: 20px;
             border-radius: 5px;
@@ -73,10 +73,10 @@
     <div class="container">
         <!-- Header Section -->
         <div class="header d-flex align-items-center">
-            <img src="logo.png" alt="University Logo">
+            <img src="images/logo.png" alt="University Logo">
             <div>
                 <h1>Faculty of Technology</h1>
-                <h2>Dean Office Management System</h2>
+                <h3>Dean Office Management System</h3>
             </div>
         </div>
 
