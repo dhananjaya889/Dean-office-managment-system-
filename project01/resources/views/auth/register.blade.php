@@ -20,7 +20,8 @@
                     <!-- Photo Upload -->
                     <div class="form-group">
                         <label for="photo">Upload Photo</label>
-                        <input type="file" class="form-control-file" id="photo" name="photo" accept="image/*" required>
+                        <input type="file" class="form-control-file" id="photo" name="photo" accept="image/*"
+                            required>
                     </div>
 
                     <!-- Full Name -->
@@ -39,15 +40,21 @@
                             name="name_with_initials" required>
                     </div>
                     <!-- Date of Birth -->
-                    <div class="form-group">
-                        <label for="dob">Date of Birth</label>
-                        <input type="date" class="form-control" id="dob" name="dob" required>
-                    </div>
+                    <label for="dob">Date of Birth</label>
+                    <div class="row g-3">
+                        <div class="col">
+                            <input type="date" class="form-control" id="dob" name="dob" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="regnumber" placeholder="Registration Number" required>
+                        </div>
+                    </div><br>
 
                     <!-- Email and Phone Number -->
                     <div class="form-group">
                         <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
                     </div>
+
                     <div class="row g-3">
                         <div class="col">
                             <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number"
@@ -61,7 +68,8 @@
 
                     <!-- NIC -->
                     <div class="form-group"><br>
-                        <input type="text" class="form-control" id="nic" placeholder="NIC" name="nic" required>
+                        <input type="text" class="form-control" id="nic" placeholder="NIC" name="nic"
+                            required>
                     </div>
 
                     <!-- Address -->
@@ -76,11 +84,12 @@
                     </div>
                     <div class="row g-3">
                         <div class="col">
-                            <input type="text" class="form-control" id="city" placeholder="City" name="city" required>
+                            <input type="text" class="form-control" id="city" placeholder="City" name="city"
+                                required>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" id="province" placeholder="Province" name="province"
-                                required><br>
+                            <input type="text" class="form-control" id="province" placeholder="Province"
+                                name="province" required><br>
                         </div>
                     </div>
                     <div class="form-group">
@@ -92,12 +101,13 @@
                     <div class="form-group">
                         <label>Gender</label><br>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="gender" id="male" value="Male" required>
+                            <input class="form-check-input" type="radio" name="gender" id="male"
+                                value="Male" required>
                             <label class="form-check-label" for="male">Male</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="gender" id="female" value="Female"
-                                required>
+                            <input class="form-check-input" type="radio" name="gender" id="female"
+                                value="Female" required>
                             <label class="form-check-label" for="female">Female</label>
                         </div>
                     </div>
@@ -106,13 +116,13 @@
                     <div class="form-group">
                         <label>Status</label><br>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="status" id="married" value="Married"
-                                required>
+                            <input class="form-check-input" type="radio" name="status" id="married"
+                                value="Married" required>
                             <label class="form-check-label" for="married">Married</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="status" id="unmarried" value="Unmarried"
-                                required>
+                            <input class="form-check-input" type="radio" name="status" id="unmarried"
+                                value="Unmarried" required>
                             <label class="form-check-label" for="unmarried">Unmarried</label>
                         </div>
                     </div>
